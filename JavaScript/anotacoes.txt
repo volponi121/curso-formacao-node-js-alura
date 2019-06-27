@@ -1,0 +1,11 @@
+document - Document Object Model, que é a representação da nossa página HTML para o navegador, que é utilizada pelo Javascript para manipular a página.
+document.querySelector("h1") - Procura por elementos da DOM
+.class - seletor por classe
+#nomeId - seletor por id
+
+var titulo = document.querySelector("h1");|  - Variavel que recebe a dom de quem tem a tag h1
+console.log(titulo.textContent);          |  - Imprime o valor do texto do h1
+titulo.textContent = "Aparecida Nutricionista"; | - Trocando o valor do h1
+document.querySelector(".titulo"); | - Buscando pela class = "titulo" no querySelector
+
+boa pratica separar script do html chamando com um src em um outro arquivo só de js.
